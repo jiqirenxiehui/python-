@@ -5,7 +5,7 @@
 import re                                                                                
 def count_and_sort_ip_in_log(file_path):
     try:
-        ip_counts = {}
+        ip_counts = {} #创建保存数据的字典
         with open(file_path, 'r', encoding='utf-8') as file:
             content=file.readline()
             # print(content)
